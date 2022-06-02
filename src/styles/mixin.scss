@@ -1,0 +1,111 @@
+.clearfix {
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+.scrollBar {
+  &::-webkit-scrollbar-track-piece {
+    background: #f9f9f9;
+  }
+
+  &::-webkit-scrollbar {
+    height: 10px;
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border-radius: 20px;
+  }
+}
+
+.relative {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.clearfix {
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@font-face {
+  font-family: "BigYoungBoldGB";
+  src: url("../assets/fonts/BigYoungBoldGB.ttf");
+}
+
+@font-face {
+  font-family: "Digiface";
+  src: url("../assets/fonts/DigifaceRegular.ttf");
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes popup {
+  from {
+    opacity: 0;
+    transform: scale(0.1);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fadein-right {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+.fadein-left {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+.fadein-popup {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: popup;
+  animation-name: popup;
+}

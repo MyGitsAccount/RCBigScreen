@@ -1,0 +1,766 @@
+{
+  "tabList": [
+    {
+      "name": "育肥猪存栏量",
+      "unit": "头",
+      "value": 35247
+    }
+  ],
+  "detailInfo": [
+    {
+      "value": 52,
+      "latitude": 30.812595,
+      "name": "万州区",
+      "longitude": 108.415519,
+      "data": []
+    },
+    {
+      "value": 27,
+      "latitude": 29.706428,
+      "name": "涪陵区",
+      "longitude": 107.39448,
+      "data": []
+    },
+    {
+      "value": 12,
+      "latitude": 30.201406,
+      "name": "渝中区",
+      "longitude": 107.797473,
+      "data": []
+    },
+    {
+      "value": 32,
+      "latitude": 29.490309,
+      "name": "大渡口区",
+      "longitude": 106.488845,
+      "data": []
+    },
+    {
+      "value": 12,
+      "latitude": 29.61348,
+      "name": "江北区",
+      "longitude": 106.65787,
+      "data": []
+    },
+    {
+      "value": 57,
+      "latitude": 29.547192,
+      "name": "沙坪坝区",
+      "longitude": 106.463439,
+      "data": []
+    },
+    {
+      "value": 18,
+      "latitude": 29.50409,
+      "name": "九龙坡区",
+      "longitude": 106.50646,
+      "data": []
+    },
+    {
+      "value": 22,
+      "latitude": 29.50174,
+      "name": "南岸区",
+      "longitude": 106.63321,
+      "data": []
+    },
+    {
+      "value": 17,
+      "latitude": 29.811138,
+      "name": "北碚区",
+      "longitude": 106.402277,
+      "data": []
+    },
+    {
+      "value": 45,
+      "latitude": 29.03375,
+      "name": "綦江区",
+      "data": [],
+      "longitude": 106.65782
+    },
+    {
+      "value": 28,
+      "latitude": 29.713391,
+      "name": "大足区",
+      "data": [],
+      "longitude": 105.728134
+    },
+    {
+      "value": 26,
+      "latitude": 29.723786,
+      "name": "渝北区",
+      "data": [],
+      "longitude": 106.637722
+    },
+    {
+      "value": 23,
+      "latitude": 29.38,
+      "name": "巴南区",
+      "data": [],
+      "longitude": 106.52
+    },
+    {
+      "value": 30,
+      "latitude": 29.539286,
+      "name": "黔江区",
+      "data": [],
+      "longitude": 108.777471
+    },
+    {
+      "value": 18,
+      "latitude": 29.863715,
+      "name": "长寿区",
+      "data": [],
+      "longitude": 107.08751
+    },
+    {
+      "value": 37,
+      "latitude": 29.32315,
+      "name": "江津区",
+      "data": [],
+      "longitude": 106.25918
+    },
+    {
+      "value": 33,
+      "latitude": 29.97782,
+      "name": "合川区",
+      "data": [],
+      "longitude": 106.2827
+    },
+    {
+      "value": 25,
+      "latitude": 29.362501,
+      "name": "永川区",
+      "data": [],
+      "longitude": 105.933253
+    },
+    {
+      "value": 36,
+      "latitude": 29.163561,
+      "name": "南川区",
+      "data": [],
+      "longitude": 107.105718
+    },
+    {
+      "value": 22,
+      "latitude": 30.197571,
+      "name": "潼南区",
+      "data": [],
+      "longitude": 105.846823
+    },
+    {
+      "value": 28,
+      "latitude": 29.847001,
+      "name": "铜梁区",
+      "data": [],
+      "longitude": 106.054869
+    },
+    {
+      "value": 20,
+      "latitude": 29.423195,
+      "name": "荣昌区",
+      "data": [
+        {
+          "name": "琪泰养殖场1",
+          "longitude": 105.588228,
+          "latitude": 29.353195,
+          "list": {
+            "存栏总数": 502,
+            "母猪": 100,
+            "种公猪": 112,
+            "育肥猪": 290
+          }
+        },
+        {
+          "name": "琪泰养殖场2",
+          "longitude": 105.528228,
+          "latitude": 29.450195,
+          "list": {
+            "存栏总数": 502,
+            "母猪": 100,
+            "种公猪": 112,
+            "育肥猪": 290
+          }
+        },
+        {
+          "name": "琪金养殖场",
+          "longitude": 105.453788,
+          "latitude": 29.403409,
+          "list": {
+            "存栏总数": 502,
+            "母猪": 100,
+            "种公猪": 112,
+            "育肥猪": 290
+          }
+        }
+      ],
+      "longitude": 105.618228
+    },
+    {
+      "value": 15,
+      "latitude": 29.583688,
+      "name": "璧山区",
+      "data": [],
+      "longitude": 106.211598
+    },
+    {
+      "value": 35,
+      "level": 2,
+      "latitude": 30.660545,
+      "name": "梁平区",
+      "data": [],
+      "longitude": 107.7761
+    },
+    {
+      "value": 25,
+      "latitude": 31.95324,
+      "name": "城口县",
+      "data": [],
+      "longitude": 108.670789
+    },
+    {
+      "value": 31,
+      "latitude": 29.869522,
+      "name": "丰都县",
+      "data": [],
+      "longitude": 107.737421
+    },
+    {
+      "value": 25,
+      "latitude": 30.27311,
+      "name": "垫江县",
+      "data": [],
+      "longitude": 107.40496
+    },
+    {
+      "value": 26,
+      "latitude": 29.331757,
+      "name": "武隆区",
+      "data": [],
+      "longitude": 107.766355
+    },
+    {
+      "value": 28,
+      "level": 2,
+      "latitude": 30.33035,
+      "name": "忠县",
+      "data": [],
+      "longitude": 108.00981
+    },
+    {
+      "value": 40,
+      "latitude": 31.166383,
+      "name": "开州区",
+      "data": [],
+      "longitude": 108.399888
+    },
+    {
+      "value": 42,
+      "level": 2,
+      "latitude": 30.936701,
+      "name": "云阳县",
+      "data": [],
+      "longitude": 108.703933
+    },
+    {
+      "value": 31,
+      "latitude": 31.024285,
+      "name": "奉节县",
+      "data": [],
+      "longitude": 109.407114
+    },
+    {
+      "value": 76,
+      "latitude": 31.09878,
+      "name": "巫山县",
+      "data": [],
+      "longitude": 109.92584
+    },
+    {
+      "value": 34,
+      "latitude": 31.404957,
+      "name": "巫溪县",
+      "data": [],
+      "longitude": 109.576518
+    },
+    {
+      "value": 32,
+      "latitude": 30.005428,
+      "name": "石柱土家族自治县",
+      "data": [],
+      "longitude": 108.120652
+    },
+    {
+      "value": 27,
+      "latitude": 28.453856,
+      "name": "秀山土家族苗族自治县",
+      "data": [],
+      "longitude": 109.014012
+    },
+    {
+      "value": 38,
+      "latitude": 28.847004,
+      "name": "酉阳土家族苗族自治县",
+      "data": [],
+      "longitude": 108.774354
+    },
+    {
+      "value": 40,
+      "latitude": 29.299567,
+      "name": "彭水苗族土家族自治县",
+      "data": [],
+      "longitude": 108.172227
+    }
+  ],
+  "culiivationFactory": [
+    {
+      "name": "兴建养殖场",
+      "lnglat": [
+        109.001454,
+        29.123456
+      ],
+      "img": "images/cultivation/feed_icon.png"
+    },
+    {
+      "name": "兴建养殖场1",
+      "lnglat": [
+        109.001354,
+        29.124456
+      ],
+      "img": "images/cultivation/feed_icon.png"
+    },
+    {
+      "name": "兴建养殖场2",
+      "lnglat": [
+        109.001254,
+        29.125456
+      ],
+      "img": "images/cultivation/feed_icon.png"
+    },
+    {
+      "name": "兴建养殖场3",
+      "lnglat": [
+        109.001154,
+        29.123656
+      ],
+      "img": "images/cultivation/feed_icon.png"
+    },
+    {
+      "name": "兴建养殖场4",
+      "lnglat": [
+        109.001054,
+        29.123756
+      ],
+      "img": "images/cultivation/feed_icon.png"
+    },
+    {
+      "name": "兴建养殖场5",
+      "lnglat": [
+        109.009954,
+        29.123856
+      ],
+      "img": "images/cultivation/feed_icon.png"
+    }
+  ],
+  "culiivationScroll": [
+    {
+      "unit": "ppm",
+      "controlType": "06",
+      "dataTime": "2022-05-30 10:37:20",
+      "equipmentValue": 243.0,
+      "devName": "育肥2栋",
+      "pigstyName": "育肥2栋"
+    },
+    {
+      "unit": "%",
+      "controlType": "02",
+      "dataTime": "2022-05-30 10:37:20",
+      "equipmentValue": 70.0,
+      "devName": "育肥2栋",
+      "pigstyName": "育肥2栋"
+    },
+    {
+      "unit": "℃",
+      "controlType": "01",
+      "dataTime": "2022-05-30 10:37:20",
+      "equipmentValue": 24.7,
+      "devName": "育肥2栋",
+      "pigstyName": "育肥2栋"
+    },
+    {
+      "unit": "%",
+      "controlType": "02",
+      "dataTime": "2022-05-30 10:36:41",
+      "equipmentValue": 68.0,
+      "devName": "育肥4栋",
+      "pigstyName": "育肥4栋"
+    },
+    {
+      "unit": "ppm",
+      "controlType": "06",
+      "dataTime": "2022-05-30 10:36:41",
+      "equipmentValue": 300.0,
+      "devName": "育肥4栋",
+      "pigstyName": "育肥4栋"
+    },
+    {
+      "unit": "℃",
+      "controlType": "01",
+      "dataTime": "2022-05-30 10:36:41",
+      "equipmentValue": 25.6,
+      "devName": "育肥4栋",
+      "pigstyName": "育肥4栋"
+    },
+    {
+      "unit": "℃",
+      "controlType": "01",
+      "dataTime": "2022-05-30 10:36:20",
+      "equipmentValue": 24.9,
+      "devName": "育肥1栋",
+      "pigstyName": "育肥1栋"
+    },
+    {
+      "unit": "ppm",
+      "controlType": "06",
+      "dataTime": "2022-05-30 10:36:20",
+      "equipmentValue": 262.0,
+      "devName": "育肥1栋",
+      "pigstyName": "育肥1栋"
+    },
+    {
+      "unit": "%",
+      "controlType": "02",
+      "dataTime": "2022-05-30 10:36:20",
+      "equipmentValue": 72.0,
+      "devName": "育肥1栋",
+      "pigstyName": "育肥1栋"
+    },
+    {
+      "unit": "℃",
+      "controlType": "01",
+      "dataTime": "2022-05-30 10:33:41",
+      "equipmentValue": 24.2,
+      "devName": "育肥3栋",
+      "pigstyName": "育肥3栋"
+    },
+    {
+      "unit": "ppm",
+      "controlType": "06",
+      "dataTime": "2022-05-30 10:33:41",
+      "equipmentValue": 262.0,
+      "devName": "育肥3栋",
+      "pigstyName": "育肥3栋"
+    },
+    {
+      "unit": "%",
+      "controlType": "02",
+      "dataTime": "2022-05-30 10:33:41",
+      "equipmentValue": 72.0,
+      "devName": "育肥3栋",
+      "pigstyName": "育肥3栋"
+    },
+    {
+      "unit": "%",
+      "controlType": "02",
+      "dataTime": "2022-05-30 10:33:25",
+      "equipmentValue": 75.0,
+      "devName": "育肥5栋",
+      "pigstyName": "育肥5栋"
+    },
+    {
+      "unit": "ppm",
+      "controlType": "06",
+      "dataTime": "2022-05-30 10:33:25",
+      "equipmentValue": 281.0,
+      "devName": "育肥5栋",
+      "pigstyName": "育肥5栋"
+    },
+    {
+      "unit": "℃",
+      "controlType": "01",
+      "dataTime": "2022-05-30 10:33:25",
+      "equipmentValue": 25.1,
+      "devName": "育肥5栋",
+      "pigstyName": "育肥5栋"
+    },
+    {
+      "unit": "ppm",
+      "controlType": "06",
+      "dataTime": "2022-05-30 10:27:19",
+      "equipmentValue": 243.0,
+      "devName": "育肥2栋",
+      "pigstyName": "育肥2栋"
+    },
+    {
+      "unit": "%",
+      "controlType": "02",
+      "dataTime": "2022-05-30 10:27:19",
+      "equipmentValue": 69.0,
+      "devName": "育肥2栋",
+      "pigstyName": "育肥2栋"
+    },
+    {
+      "unit": "℃",
+      "controlType": "01",
+      "dataTime": "2022-05-30 10:27:19",
+      "equipmentValue": 24.5,
+      "devName": "育肥2栋",
+      "pigstyName": "育肥2栋"
+    },
+    {
+      "unit": "%",
+      "controlType": "02",
+      "dataTime": "2022-05-30 10:26:36",
+      "equipmentValue": 68.0,
+      "devName": "育肥4栋",
+      "pigstyName": "育肥4栋"
+    },
+    {
+      "unit": "ppm",
+      "controlType": "06",
+      "dataTime": "2022-05-30 10:26:36",
+      "equipmentValue": 318.0,
+      "devName": "育肥4栋",
+      "pigstyName": "育肥4栋"
+    },
+    {
+      "unit": "℃",
+      "controlType": "01",
+      "dataTime": "2022-05-30 10:26:36",
+      "equipmentValue": 25.5,
+      "devName": "育肥4栋",
+      "pigstyName": "育肥4栋"
+    },
+    {
+      "unit": "%",
+      "controlType": "02",
+      "dataTime": "2022-05-30 10:26:16",
+      "equipmentValue": 73.0,
+      "devName": "育肥1栋",
+      "pigstyName": "育肥1栋"
+    },
+    {
+      "unit": "℃",
+      "controlType": "01",
+      "dataTime": "2022-05-30 10:26:16",
+      "equipmentValue": 24.6,
+      "devName": "育肥1栋",
+      "pigstyName": "育肥1栋"
+    },
+    {
+      "unit": "ppm",
+      "controlType": "06",
+      "dataTime": "2022-05-30 10:26:16",
+      "equipmentValue": 262.0,
+      "devName": "育肥1栋",
+      "pigstyName": "育肥1栋"
+    },
+    {
+      "unit": "%",
+      "controlType": "02",
+      "dataTime": "2022-05-30 10:23:35",
+      "equipmentValue": 73.0,
+      "devName": "育肥3栋",
+      "pigstyName": "育肥3栋"
+    },
+    {
+      "unit": "℃",
+      "controlType": "01",
+      "dataTime": "2022-05-30 10:23:35",
+      "equipmentValue": 24.0,
+      "devName": "育肥3栋",
+      "pigstyName": "育肥3栋"
+    },
+    {
+      "unit": "ppm",
+      "controlType": "06",
+      "dataTime": "2022-05-30 10:23:35",
+      "equipmentValue": 262.0,
+      "devName": "育肥3栋",
+      "pigstyName": "育肥3栋"
+    },
+    {
+      "unit": "℃",
+      "controlType": "01",
+      "dataTime": "2022-05-30 10:23:22",
+      "equipmentValue": 24.9,
+      "devName": "育肥5栋",
+      "pigstyName": "育肥5栋"
+    },
+    {
+      "unit": "%",
+      "controlType": "02",
+      "dataTime": "2022-05-30 10:23:22",
+      "equipmentValue": 76.0,
+      "devName": "育肥5栋",
+      "pigstyName": "育肥5栋"
+    },
+    {
+      "unit": "ppm",
+      "controlType": "06",
+      "dataTime": "2022-05-30 10:23:22",
+      "equipmentValue": 281.0,
+      "devName": "育肥5栋",
+      "pigstyName": "育肥5栋"
+    },
+    {
+      "unit": "ppm",
+      "controlType": "06",
+      "dataTime": "2022-05-30 10:17:17",
+      "equipmentValue": 243.0,
+      "devName": "育肥2栋",
+      "pigstyName": "育肥2栋"
+    },
+    {
+      "unit": "%",
+      "controlType": "02",
+      "dataTime": "2022-05-30 10:17:17",
+      "equipmentValue": 71.0,
+      "devName": "育肥2栋",
+      "pigstyName": "育肥2栋"
+    },
+    {
+      "unit": "℃",
+      "controlType": "01",
+      "dataTime": "2022-05-30 10:17:17",
+      "equipmentValue": 24.4,
+      "devName": "育肥2栋",
+      "pigstyName": "育肥2栋"
+    },
+    {
+      "unit": "℃",
+      "controlType": "01",
+      "dataTime": "2022-05-30 10:16:35",
+      "equipmentValue": 25.4,
+      "devName": "育肥4栋",
+      "pigstyName": "育肥4栋"
+    },
+    {
+      "unit": "%",
+      "controlType": "02",
+      "dataTime": "2022-05-30 10:16:35",
+      "equipmentValue": 69.0,
+      "devName": "育肥4栋",
+      "pigstyName": "育肥4栋"
+    },
+    {
+      "unit": "ppm",
+      "controlType": "06",
+      "dataTime": "2022-05-30 10:16:35",
+      "equipmentValue": 356.0,
+      "devName": "育肥4栋",
+      "pigstyName": "育肥4栋"
+    },
+    {
+      "unit": "ppm",
+      "controlType": "06",
+      "dataTime": "2022-05-30 10:16:12",
+      "equipmentValue": 318.0,
+      "devName": "育肥1栋",
+      "pigstyName": "育肥1栋"
+    },
+    {
+      "unit": "%",
+      "controlType": "02",
+      "dataTime": "2022-05-30 10:16:12",
+      "equipmentValue": 75.0,
+      "devName": "育肥1栋",
+      "pigstyName": "育肥1栋"
+    },
+    {
+      "unit": "℃",
+      "controlType": "01",
+      "dataTime": "2022-05-30 10:16:12",
+      "equipmentValue": 24.5,
+      "devName": "育肥1栋",
+      "pigstyName": "育肥1栋"
+    }
+  ],
+  "modlesData": {
+    "所有模型": {
+      "当前加载的模型": "models/tianzhao/tileset.json",
+      "tianzhao": "models/tianzhao/tileset.json"
+    },
+    "模型设施": [
+      {
+        "name": "饲料加工厂",
+        "type": "other",
+        "img": "images/cultivation/make.png"
+      },
+      {
+        "name": "化粪池",
+        "type": "other",
+        "img": ""
+      },
+      {
+        "name": "蓄水池",
+        "type": "other",
+        "img": ""
+      },
+      {
+        "name": "蓄水池",
+        "type": "other",
+        "img": ""
+      },
+      {
+        "name": "住宿楼",
+        "type": "camera",
+        "img": "images/cultivation/camera.png"
+      },
+      {
+        "name": "饲料加工厂",
+        "type": "other",
+        "img": "images/cultivation/make.png"
+      },
+      {
+        "name": "办公区",
+        "type": "camera",
+        "img": "images/cultivation/camera.png"
+      },
+      {
+        "name": "饲养场",
+        "type": "camera",
+        "img": "images/cultivation/camera.png"
+      },
+      {
+        "name": "饲养场",
+        "type": "camera",
+        "img": "images/cultivation/camera.png"
+      },
+      {
+        "name": "饲养场",
+        "type": "camera",
+        "img": "images/cultivation/camera.png"
+      },
+      {
+        "name": "蓄水池",
+        "type": "other",
+        "img": ""
+      },
+      {
+        "name": "蓄水池",
+        "type": "other",
+        "img": ""
+      },
+      {
+        "name": "饲料加工厂",
+        "type": "other",
+        "img": "images/cultivation/make.png"
+      },
+      {
+        "name": "饲料加工厂",
+        "type": "other",
+        "img": "images/cultivation/make.png"
+      },
+      {
+        "name": "化粪池",
+        "type": "other",
+        "img": ""
+      },
+      {
+        "name": "中心",
+        "type": "other",
+        "img": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+// 修改地图工具组件样式——————start
+.map-tool {
+  .btn-area-select {
+    background: url('@/assets/images/MapTools/area-select-bg.png');
+    background-size: 100% 100%;
+    border: none;
+    height: 40px;
+    color: #2fafe0;
+    .img[data-v-a2b0bb4c] {
+      margin: 0 7px 0 14px;
+      background-image: url('@/assets/images/MapTools/location.png');
+    }
+    .select-panel {
+      top: 45px;
+    }
+  }
+  .btn-area-select::after {
+    color: #2fafe0;
+    margin: -5px 8px 0 8px;
+  }
+  .query::after {
+    color: #2fafe0;
+    margin: -8px 0 0 5px;
+  }
+
+  .select-panel {
+    border-color: #2fafe0;
+    border-radius: 4px;
+  }
+  .select-panel .slect-area-list .selected {
+    background-color: rgba(47, 175, 224, 0.5);
+    height: initial;
+  }
+  .select-panel .select-level-tab .selected {
+    color: #2fafe0;
+  }
+  .select-panel .select-level-tab .tabs {
+    &:hover {
+      .clear {
+        color: #2fafe0;
+      }
+    }
+  }
+  .select-panel .select-level-tab {
+    border-bottom: 1px dashed #2fafe0;
+  }
+}
+
+.map-layer > :nth-child(1) {
+  display: none;
+}
+.map-layer > :nth-child(2) {
+  display: none;
+}
+.map-layer {
+  pointer-events: none !important;
+}
+.mars3d-slider {
+  svg {
+    display: initial;
+    vertical-align: initial;
+  }
+}
+
+// 修改组件样式——————end

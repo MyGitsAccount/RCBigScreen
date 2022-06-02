@@ -1,0 +1,274 @@
+﻿{
+  "map3d": {
+    "scene": {
+      "center": {
+        "lat": 29.89399,
+        "lng": 107.855118,
+        "alt": 880895,
+        "heading": 360,
+        "pitch": -86
+      },
+      "scene3DOnly": false,
+      "shadows": false,
+      "removeDblClick": true,
+      "sceneMode": 3,
+      "showSun": true,
+      "showMoon": true,
+      "showSkyBox": true,
+      "showSkyAtmosphere": true,
+      "fog": true,
+      "fxaa": true,
+      "requestRenderMode": true,
+      "globe": {
+        "depthTestAgainstTerrain": false,
+        "baseColor": "#546a53",
+        "showGroundAtmosphere": true,
+        "enableLighting": false
+      },
+      "cameraController": {
+        "zoomFactor": 3.0,
+        "minimumZoomDistance": 1,
+        "maximumZoomDistance": 50000000,
+        "enableRotate": true,
+        "enableTranslate": true,
+        "enableTilt": true,
+        "enableZoom": true,
+        "enableCollisionDetection": true,
+        "minimumCollisionTerrainHeight": 15000
+      }
+    },
+    "control": {
+      "homeButton": false,
+      "baseLayerPicker": false,
+      "sceneModePicker": false,
+      "vrButton": false,
+      "fullscreenButton": false,
+      "navigationHelpButton": false,
+      "animation": false,
+      "timeline": false,
+      "infoBox": false,
+      "geocoder": false,
+      "selectionIndicator": false,
+      "defaultContextMenu": true,
+      "mouseDownView": true
+    },
+    "terrain": {
+      "url": "//219.153.56.5:9301/terrain",
+      "show": false
+    },
+    "basemaps": [
+      {
+        "id": 10,
+        "name": "地图底图",
+        "type": "group"
+      },
+      {
+        "id": 2021,
+        "pid": 10,
+        "name": "天地图影像",
+        "icon": "http://219.152.53.210:8094/baseLayer/tdt_img.png",
+        "type": "group",
+        "layers": [
+          {
+            "name": "底图",
+            "type": "tdt",
+            "layer": "img_d",
+            "key": [
+              "9ae78c51a0a28f06444d541148496e36"
+            ]
+          },
+          {
+            "name": "注记",
+            "type": "tdt",
+            "layer": "img_z",
+            "key": [
+              "9ae78c51a0a28f06444d541148496e36"
+            ]
+          }
+        ]
+      },
+      {
+        "pid": 10,
+        "name": "天地图电子",
+        "icon": "http://219.152.53.210:8094/baseLayer/tdt_vec.png",
+        "type": "group",
+        "layers": [
+          {
+            "name": "底图",
+            "type": "tdt",
+            "layer": "vec_d",
+            "key": [
+              "9ae78c51a0a28f06444d541148496e36"
+            ]
+          },
+          {
+            "name": "注记",
+            "type": "tdt",
+            "layer": "vec_z",
+            "key": [
+              "9ae78c51a0a28f06444d541148496e36"
+            ]
+          }
+        ]
+      },
+      {
+        "pid": 10,
+        "name": "高德影像",
+        "type": "group",
+        "icon": "http://219.152.53.210:8094/baseLayer/gaode_img.png",
+        "layers": [
+          {
+            "name": "底图",
+            "type": "gaode",
+            "layer": "img_d"
+          },
+          {
+            "name": "注记",
+            "type": "gaode",
+            "layer": "img_z"
+          }
+        ]
+      },
+      {
+        "pid": 10,
+        "name": "重庆影像",
+        "type": "group",
+        "icon": "http://219.152.53.210:8094/baseLayer/gaode_img.png",
+        "layers": [
+          {
+            "name": "蓝色底图",
+            "icon": "https://muyao1987.gitee.io/cdn/mars3d.cn/img/basemaps/bd-c-midnight.png",
+            "type": "xyz",
+            "url": "http://map.geoq.cn/arcgis/rest/services/ChinaOnlineStreetPurplishBlue/MapServer/tile/{z}/{y}/{x}",
+            "chinaCRS": "GCJ02",
+            "enablePickFeatures": false
+          },
+          {
+            "name": "底图",
+            "type": "arcgis",
+            "id": "cq_arcgis",
+            "url": "http://sk.digitalcq.com/gw/portal/ZH06IK31/KwrkS/oqgbZlPM/arcgis/MapServer",
+            "show": false
+          },
+          {
+            "name": "注记",
+            "type": "arcgis_tile",
+            "id": "arcgis_tile",
+            "url": "http://sk.digitalcq.com/gw/portal/ZH79GO99/c7ui3/oqgbZlPM/arcgis/MapServer",
+            "crs": "EPSG:4490",
+            "show": false
+          }
+        ],
+        "show": true
+      },
+      {
+        "pid": 10,
+        "name": "高德电子",
+        "type": "gaode",
+        "icon": "http://219.152.53.210:8094/baseLayer/gaode_vec.png",
+        "layer": "vec"
+      },
+      {
+        "pid": 10,
+        "name": "百度影像",
+        "type": "group",
+        "icon": "http://219.152.53.210:8094/baseLayer/bd-img.png",
+        "layers": [
+          {
+            "name": "底图",
+            "type": "baidu",
+            "layer": "img_d"
+          },
+          {
+            "name": "注记",
+            "type": "baidu",
+            "layer": "img_z"
+          }
+        ]
+      },
+      {
+        "pid": 10,
+        "name": "百度电子",
+        "icon": "http://219.152.53.210:8094/baseLayer/bd-vec.png",
+        "type": "baidu",
+        "layer": "vec"
+      },
+      {
+        "pid": 10,
+        "name": "腾讯影像",
+        "icon": "http://219.152.53.210:8094/baseLayer/gaode_img.png",
+        "type": "group",
+        "layers": [
+          {
+            "name": "底图",
+            "type": "tencent",
+            "layer": "img_d"
+          },
+          {
+            "name": "注记",
+            "type": "tencent",
+            "layer": "img_z"
+          }
+        ]
+      },
+      {
+        "pid": 10,
+        "name": "腾讯电子",
+        "icon": "http://219.152.53.210:8094/baseLayer/gaode_vec.png",
+        "type": "tencent",
+        "layer": "vec"
+      },
+      {
+        "pid": 10,
+        "name": "ArcGIS影像",
+        "icon": "http://219.152.53.210:8094/baseLayer/esriWorldImagery.png",
+        "type": "xyz",
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+        "enablePickFeatures": false
+      },
+      {
+        "pid": 10,
+        "name": "微软影像",
+        "icon": "http://219.152.53.210:8094/baseLayer/bingAerial.png",
+        "type": "bing",
+        "key": "AuKhM0WRkjhX8E4y1OM0TukYycaw_4Vh3eSfXONDf7OARls-WEB3K_Rfx89bWxof",
+        "layer": "Aerial"
+      },
+      {
+        "pid": 10,
+        "name": "OSM地图",
+        "type": "xyz",
+        "icon": "http://219.152.53.210:8094/baseLayer/osm.png",
+        "url": "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+        "subdomains": "abc"
+      },
+      {
+        "id": 2017,
+        "pid": 10,
+        "name": "蓝色底图",
+        "icon": "http://219.152.53.210:8094/baseLayer/bd-c-midnight.png",
+        "type": "xyz",
+        "url": "http://map.geoq.cn/arcgis/rest/services/ChinaOnlineStreetPurplishBlue/MapServer/tile/{z}/{y}/{x}",
+        "chinaCRS": "GCJ02",
+        "enablePickFeatures": false
+      },
+      {
+        "pid": 10,
+        "name": "黑色底图",
+        "icon": "http://219.152.53.210:8094/baseLayer/bd-c-dark.png",
+        "type": "tencent",
+        "layer": "custom",
+        "style": "4"
+      },
+      {
+        "pid": 10,
+        "name": "灰色底图",
+        "icon": "http://219.152.53.210:8094/baseLayer/bd-c-grayscale.png",
+        "type": "mapbox",
+        "username": "marsgis",
+        "styleId": "cki0a92b123qo1aluk0e5v7sb",
+        "scaleFactor": true
+      }
+    ]
+  }
+}

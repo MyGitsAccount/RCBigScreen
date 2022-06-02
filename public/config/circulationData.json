@@ -1,0 +1,378 @@
+{
+  "tabList": [
+    {
+      "name": "车辆GPS数量",
+      "unit": "辆",
+      "value": 46826
+    },
+    {
+      "name": "运输总重量",
+      "unit": "辆",
+      "value": 26833
+    }
+  ],
+  "detailInfo": [
+    {
+      "value": 10,
+      "latitude": 30.812595,
+      "name": "万州区",
+      "longitude": 108.415519,
+      "station": "荣昌区"
+    },
+    {
+      "value": 30,
+      "latitude": 29.706428,
+      "name": "涪陵区",
+      "longitude": 107.39448,
+      "station": "荣昌区"
+    },
+    {
+      "value": 50,
+      "latitude": 29.556742,
+      "name": "渝中区",
+      "longitude": 106.56288,
+      "station": "荣昌区"
+    },
+    {
+      "value": 70,
+      "latitude": 29.490309,
+      "name": "大渡口区",
+      "longitude": 106.488845,
+      "station": "荣昌区"
+    },
+    {
+      "value": 60,
+      "latitude": 29.61348,
+      "name": "江北区",
+      "longitude": 106.65787,
+      "station": "荣昌区"
+    },
+    {
+      "value": 50,
+      "latitude": 29.547192,
+      "name": "沙坪坝区",
+      "longitude": 106.463439,
+      "station": "荣昌区"
+    },
+    {
+      "value": 80,
+      "latitude": 29.50409,
+      "name": "九龙坡区",
+      "longitude": 106.50646,
+      "station": "荣昌区"
+    },
+    {
+      "value": 100,
+      "latitude": 29.50174,
+      "name": "南岸区",
+      "longitude": 106.63321,
+      "station": "荣昌区"
+    },
+    {
+      "value": 20,
+      "latitude": 29.811138,
+      "name": "北碚区",
+      "longitude": 106.402277,
+      "station": "荣昌区"
+    },
+    {
+      "value": 30,
+      "latitude": 29.03375,
+      "name": "綦江区",
+      "station": "荣昌区",
+      "longitude": 106.65782
+    },
+    {
+      "value": 80,
+      "latitude": 29.713391,
+      "name": "大足区",
+      "station": "荣昌区",
+      "longitude": 105.728134
+    },
+    {
+      "value": 60,
+      "latitude": 29.723786,
+      "name": "渝北区",
+      "station": "荣昌区",
+      "longitude": 106.637722
+    },
+    {
+      "value": 40,
+      "latitude": 29.38,
+      "name": "巴南区",
+      "station": "荣昌区",
+      "longitude": 106.52
+    },
+    {
+      "value": 30,
+      "latitude": 29.539286,
+      "name": "黔江区",
+      "station": "荣昌区",
+      "longitude": 108.777471
+    },
+    {
+      "value": 30,
+      "latitude": 29.863715,
+      "name": "长寿区",
+      "station": "荣昌区",
+      "longitude": 107.08751
+    },
+    {
+      "value": 60,
+      "latitude": 29.32315,
+      "name": "江津区",
+      "station": "荣昌区",
+      "longitude": 106.25918
+    },
+    {
+      "value": 80,
+      "latitude": 29.97782,
+      "name": "合川区",
+      "station": "荣昌区",
+      "longitude": 106.2827
+    },
+    {
+      "value": 90,
+      "latitude": 29.362501,
+      "name": "永川区",
+      "station": "荣昌区",
+      "longitude": 105.933253
+    },
+    {
+      "value": 40,
+      "latitude": 29.163561,
+      "name": "南川区",
+      "station": "荣昌区",
+      "longitude": 107.105718
+    },
+    {
+      "value": 20,
+      "latitude": 30.197571,
+      "name": "潼南区",
+      "station": "荣昌区",
+      "longitude": 105.846823
+    },
+    {
+      "value": 10,
+      "latitude": 29.847001,
+      "name": "铜梁区",
+      "station": "荣昌区",
+      "longitude": 106.054869
+    },
+    {
+      "value": 30,
+      "latitude": 29.583688,
+      "name": "璧山区",
+      "station": "荣昌区",
+      "longitude": 106.211598
+    },
+    {
+      "value": 20,
+      "level": 2,
+      "latitude": 30.660545,
+      "name": "梁平区",
+      "station": "荣昌区",
+      "longitude": 107.7761
+    },
+    {
+      "value": 50,
+      "latitude": 31.95324,
+      "name": "城口县",
+      "station": "荣昌区",
+      "longitude": 108.670789,
+      "carData": {
+        "type": "货车",
+        "licensePlate": "渝.A225KW",
+        "temperature": "-6℃",
+        "totalWeight": "25吨"
+      },
+      "path": [
+        [
+          105.618228,
+          29.423195
+        ],
+        [
+          105.7351,
+          29.644893
+        ],
+        [
+          105.834892,
+          29.808951
+        ],
+        [
+          105.987458,
+          30.040896
+        ],
+        [
+          106.171952,
+          30.296574
+        ],
+        [
+          106.42049,
+          30.578347
+        ],
+        [
+          106.683557,
+          30.832774
+        ],
+        [
+          107.204223,
+          31.239068
+        ],
+        [
+          107.834805,
+          31.625286
+        ],
+        [
+          108.670789,
+          31.95324
+        ]
+      ]
+    },
+    {
+      "value": 80,
+      "latitude": 29.869522,
+      "name": "丰都县",
+      "station": "荣昌区",
+      "longitude": 107.737421
+    },
+    {
+      "value": 60,
+      "latitude": 30.27311,
+      "name": "垫江县",
+      "station": "荣昌区",
+      "longitude": 107.40496
+    },
+    {
+      "value": 50,
+      "latitude": 29.331757,
+      "name": "武隆区",
+      "station": "荣昌区",
+      "longitude": 107.766355
+    },
+    {
+      "value": 30,
+      "level": 2,
+      "latitude": 30.33035,
+      "name": "忠县",
+      "station": "荣昌区",
+      "longitude": 108.00981
+    },
+    {
+      "value": 40,
+      "latitude": 31.166383,
+      "name": "开州区",
+      "station": "荣昌区",
+      "longitude": 108.399888
+    },
+    {
+      "value": 50,
+      "level": 2,
+      "latitude": 30.936701,
+      "name": "云阳县",
+      "station": "荣昌区",
+      "longitude": 108.703933
+    },
+    {
+      "value": 60,
+      "latitude": 31.024285,
+      "name": "奉节县",
+      "station": "荣昌区",
+      "longitude": 109.407114
+    },
+    {
+      "value": 30,
+      "latitude": 31.09878,
+      "name": "巫山县",
+      "station": "荣昌区",
+      "longitude": 109.92584
+    },
+    {
+      "value": 80,
+      "latitude": 31.404957,
+      "name": "巫溪县",
+      "station": "荣昌区",
+      "longitude": 109.576518
+    },
+    {
+      "value": 80,
+      "latitude": 30.005428,
+      "name": "石柱土家族自治县",
+      "station": "荣昌区",
+      "longitude": 108.120652
+    },
+    {
+      "value": 80,
+      "latitude": 28.453856,
+      "name": "秀山土家族苗族自治县",
+      "station": "荣昌区",
+      "longitude": 109.014012,
+      "carData": {
+        "type": "货车",
+        "licensePlate": "渝.A225KW",
+        "temperature": "-6℃",
+        "totalWeight": "25吨"
+      },
+      "path": [
+        [
+          105.618228,
+          29.423195
+        ],
+        [
+          105.85188,
+          29.435952
+        ],
+        [
+          106.068906,
+          29.438115
+        ],
+        [
+          106.354221,
+          29.427923
+        ],
+        [
+          106.91896,
+          29.364258
+        ],
+        [
+          107.40553,
+          29.257102
+        ],
+        [
+          107.715116,
+          29.159201
+        ],
+        [
+          108.023141,
+          29.037292
+        ],
+        [
+          108.35466,
+          28.875204
+        ],
+        [
+          108.630347,
+          28.718033
+        ],
+        [
+          109.014012,
+          28.453856
+        ]
+      ]
+    },
+    {
+      "value": 80,
+      "latitude": 28.847004,
+      "name": "酉阳土家族苗族自治县",
+      "station": "荣昌区",
+      "longitude": 108.774354
+    },
+    {
+      "value": 80,
+      "latitude": 29.299567,
+      "name": "彭水苗族土家族自治县",
+      "station": "荣昌区",
+      "longitude": 108.172227
+    }
+  ]
+}
