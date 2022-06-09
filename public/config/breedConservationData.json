@@ -38,9 +38,9 @@
     },
     {
       "value": 0,
-      "latitude": 30.201406,
+      "latitude": 29.556742,
       "name": "渝中区",
-      "longitude": 107.797473,
+      "longitude": 106.56288,
       "data": []
     },
     {
@@ -170,7 +170,7 @@
       "longitude": 106.054869
     },
     {
-      "value": 0,
+      "value": 2,
       "latitude": 29.423195,
       "name": "荣昌区",
       "data": [
@@ -188,8 +188,8 @@
         },
         {
           "name": "畜科院总部",
-          "longitude": 105.408741,
-          "latitude": 29.525762,
+          "longitude": 105.588741,
+          "latitude": 29.405762,
           "type": "xkyzb",
           "list": {
             "存栏总数": 502,
@@ -210,7 +210,6 @@
     },
     {
       "value": 0,
-      "level": 2,
       "latitude": 30.660545,
       "name": "梁平区",
       "data": [],
@@ -246,7 +245,6 @@
     },
     {
       "value": 0,
-      "level": 2,
       "latitude": 30.33035,
       "name": "忠县",
       "data": [],
@@ -261,7 +259,6 @@
     },
     {
       "value": 0,
-      "level": 2,
       "latitude": 30.936701,
       "name": "云阳县",
       "data": [],

@@ -135,11 +135,12 @@ const getData = () => {
 
 //#region 数据订阅
 useMapRegion.$subscribe(
-  mutation => {
+  async mutation => {
     console.log(mutation, 1111);
     regionOption.value = {
       regionCode: useMapRegion.getRegionArea.code as string,
     };
+    mapWork.removeMaskGeojsonLayer();
     if (useMapRegion.getRegionArea.code === '500') {
       mapWork.changeCqArcgisStatus(false);
       mapWork.changeGeoJson(false);
@@ -148,7 +149,8 @@ useMapRegion.$subscribe(
     } else {
       if (router.currentRoute.value.fullPath !== '/dashboard/Circulation') {
         mapWork.changeCqArcgisStatus(true);
-        mapWork1.addProvince(useMapRegion.getRegionArea.name as string, cqGeoJson.value);
+        await mapWork1.addProvince(useMapRegion.getRegionArea.name as string, cqGeoJson.value);
+        mapWork.drawMaskGeojsonLayer(useMapRegion.getRegionArea.name as string, toRaw(cqGeoJson.value));
       }
     }
   },

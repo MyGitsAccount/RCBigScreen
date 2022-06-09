@@ -282,12 +282,12 @@ export async function addRoamLine(map: mars3d.Map, currentLineData: any): Promis
       resolve(true);
     });
 
-    roamLine.on(mars3d.EventType.change, () => {
-      // 漫游组件
-      // eventTarget.fire('roamLineChange', []);
+    roamLine.on(mars3d.EventType.start, (event: any) => {
+      console.log('漫游开始', event);
+      popupStyle(roamLine, currentLineData.carData);
     });
 
-    popupStyle(roamLine, currentLineData.carData);
+    // popupStyle(roamLine, currentLineData.carData);
 
     // 刷新局部DOM,不影响popup面板的其他控件操作
     roamLine.on(mars3d.EventType.postRender, function () {
@@ -452,7 +452,7 @@ export function popupStyle(roamLine: mars3d.graphic.RoamLine | undefined, data: 
 
         return style + htmlBefore;
       },
-      { offsetX: 100, offsetY: 40 },
+      { offsetX: 87, offsetY: 35 },
     )
     .openPopup();
 }

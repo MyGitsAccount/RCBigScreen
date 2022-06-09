@@ -174,7 +174,7 @@ export const option2 = {
     splitNumber: 4,
     name: '单位：头',
     min: 0,
-    max: 1200,
+    // max: 1200,
     nameTextStyle: {
       color: '#41a4ce',
       padding: [0, 0, 0, 0],
@@ -291,7 +291,7 @@ export const option3 = {
     splitNumber: 4,
     name: '单位：斤',
     min: 0,
-    max: 1200,
+    // max: 1200,
     nameTextStyle: {
       color: '#41a4ce',
       padding: [0, 0, 0, 0],

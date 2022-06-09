@@ -23,9 +23,9 @@
     },
     {
       "value": 0,
-      "latitude": 30.201406,
+      "latitude": 29.556742,
       "name": "渝中区",
-      "longitude": 107.797473,
+      "longitude": 106.56288,
       "data": []
     },
     {
@@ -155,28 +155,28 @@
       "longitude": 106.054869
     },
     {
-      "value": 0,
+      "value": 3,
       "latitude": 29.423195,
       "name": "荣昌区",
       "data": [
         {
-          "name": "昌大食品有限公司",
-          "longitude": 105.588228,
-          "latitude": 29.353195,
+          "name": "重庆市昌大食品有限公司",
+          "longitude": 105.56,
+          "latitude": 29.30,
           "type": "tzc",
           "list": {}
         },
         {
-          "name": "琪泰食品有限公司",
-          "longitude": 105.598228,
-          "latitude": 29.455195,
+          "name": "重庆琪泰食品有限公司",
+          "longitude": 105.331246,
+          "latitude": 29.56284,
           "type": "tzc",
           "list": {}
         },
         {
-          "name": "双燕生猪屠宰场",
-          "longitude": 105.408741,
-          "latitude": 29.525762,
+          "name": "重庆市双燕生猪屠宰场",
+          "longitude": 105.396444,
+          "latitude": 29.639555,
           "type": "tzc",
           "list": {}
         }
@@ -192,7 +192,6 @@
     },
     {
       "value": 0,
-      "level": 2,
       "latitude": 30.660545,
       "name": "梁平区",
       "data": [],
@@ -228,7 +227,6 @@
     },
     {
       "value": 0,
-      "level": 2,
       "latitude": 30.33035,
       "name": "忠县",
       "data": [],
@@ -243,7 +241,6 @@
     },
     {
       "value": 0,
-      "level": 2,
       "latitude": 30.936701,
       "name": "云阳县",
       "data": [],

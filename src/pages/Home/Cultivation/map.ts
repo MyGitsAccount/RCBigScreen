@@ -444,25 +444,48 @@ export function isShowPoint(isShow: boolean): void {
 }
 
 // 养殖场模型点位
-export function addPointSelectProvince(centerPoints: any, modelsUrls: any): void {
+export function addPointSelectProvince(centerPoints: any, modelsUrls: any, modelName: any): void {
   centerPoint = centerPoints;
   const pointsArray: any = [];
-  pointsArray[0] = [(centerPoint[0] * 1 - 0.001521).toFixed(6), (centerPoint[1] * 1 - 0.000093).toFixed(6)];
-  pointsArray[1] = [(centerPoint[0] * 1 - 0.001595).toFixed(6), (centerPoint[1] * 1 - 0.000555).toFixed(6)];
-  pointsArray[2] = [(centerPoint[0] * 1 - 0.001259).toFixed(6), (centerPoint[1] * 1 + 0.000655).toFixed(6)];
-  pointsArray[3] = [(centerPoint[0] * 1 - 0.00135).toFixed(6), (centerPoint[1] * 1 + 0.001264).toFixed(6)];
-  pointsArray[4] = [(centerPoint[0] * 1 - 0.000534).toFixed(6), (centerPoint[1] * 1 + 0.000943).toFixed(6)];
-  pointsArray[5] = [(centerPoint[0] * 1 - 0.000599).toFixed(6), (centerPoint[1] * 1 + 0.000521).toFixed(6)];
-  pointsArray[6] = [(centerPoint[0] * 1 - 0.000613).toFixed(6), (centerPoint[1] * 1 + 0.000019).toFixed(6)];
-  pointsArray[7] = [(centerPoint[0] * 1 + 0.000477).toFixed(6), (centerPoint[1] * 1 + 0.000974).toFixed(6)];
-  pointsArray[8] = [(centerPoint[0] * 1 + 0.000542).toFixed(6), (centerPoint[1] * 1 + 0.0002).toFixed(6)];
-  pointsArray[9] = [(centerPoint[0] * 1 + 0.000246).toFixed(6), (centerPoint[1] * 1 - 0.00032).toFixed(6)];
-  pointsArray[10] = [(centerPoint[0] * 1 + 0.001141).toFixed(6), (centerPoint[1] * 1 - 0.00101).toFixed(6)];
-  pointsArray[11] = [(centerPoint[0] * 1 + 0.000511).toFixed(6), (centerPoint[1] * 1 - 0.001155).toFixed(6)];
-  pointsArray[12] = [(centerPoint[0] * 1 - 0.000467).toFixed(6), (centerPoint[1] * 1 - 0.00082).toFixed(6)];
-  pointsArray[13] = [(centerPoint[0] * 1 - 0.000424).toFixed(6), (centerPoint[1] * 1 - 0.001342).toFixed(6)];
-  pointsArray[14] = [(centerPoint[0] * 1 - 0.001023).toFixed(6), (centerPoint[1] * 1 - 0.000934).toFixed(6)];
-  pointsArray[15] = [centerPoint[0], centerPoint[1]];
+
+  if (modelName === 'qitaizc') {
+    pointsArray[0] = [(centerPoint[0] * 1 - 0.001311).toFixed(6), (centerPoint[1] * 1 + 0.000528).toFixed(6)];
+    pointsArray[1] = [(centerPoint[0] * 1 + 0.000211).toFixed(6), (centerPoint[1] * 1 - 0.000502).toFixed(6)];
+    pointsArray[2] = [(centerPoint[0] * 1 + 0.001116).toFixed(6), (centerPoint[1] * 1 + 0.000967).toFixed(6)];
+    pointsArray[3] = [(centerPoint[0] * 1 + 0.001956).toFixed(6), (centerPoint[1] * 1 - 0.000205).toFixed(6)];
+    pointsArray[4] = [(centerPoint[0] * 1 + 0.00186).toFixed(6), (centerPoint[1] * 1 - 0.000805).toFixed(6)];
+    pointsArray[5] = [centerPoint[0], centerPoint[1]];
+  } else if (modelName === 'sanyou') {
+    pointsArray[0] = [(centerPoint[0] * 1 - 0.001571).toFixed(6), (centerPoint[1] * 1 + 0.000924).toFixed(6)];
+    pointsArray[1] = [(centerPoint[0] * 1 - 0.000284).toFixed(6), (centerPoint[1] * 1 + 0.000036).toFixed(6)];
+    pointsArray[2] = [(centerPoint[0] * 1 - 0.00055).toFixed(6), (centerPoint[1] * 1 - 0.000399).toFixed(6)];
+    pointsArray[3] = [(centerPoint[0] * 1 + 0.000851).toFixed(6), (centerPoint[1] * 1 - 0.000555).toFixed(6)];
+    pointsArray[4] = [(centerPoint[0] * 1 + 0.00136).toFixed(6), (centerPoint[1] * 1 + 0.000008).toFixed(6)];
+    pointsArray[5] = [(centerPoint[0] * 1 + 0.001442).toFixed(6), (centerPoint[1] * 1 - 0.00162).toFixed(6)];
+    pointsArray[6] = [centerPoint[0], centerPoint[1]];
+  } else if (modelName === 'weihengzc') {
+    pointsArray[0] = [(centerPoint[0] * 1 - 0.001024).toFixed(6), (centerPoint[1] * 1 - 0.00039).toFixed(6)];
+    pointsArray[1] = [(centerPoint[0] * 1 + 0.000638).toFixed(6), (centerPoint[1] * 1 + 0.00012).toFixed(6)];
+    pointsArray[2] = [(centerPoint[0] * 1 + 0.001414).toFixed(6), (centerPoint[1] * 1 - 0.000696).toFixed(6)];
+    pointsArray[3] = [centerPoint[0], centerPoint[1]];
+  } else {
+    pointsArray[0] = [(centerPoint[0] * 1 - 0.001521).toFixed(6), (centerPoint[1] * 1 - 0.000093).toFixed(6)];
+    pointsArray[1] = [(centerPoint[0] * 1 - 0.001595).toFixed(6), (centerPoint[1] * 1 - 0.000555).toFixed(6)];
+    pointsArray[2] = [(centerPoint[0] * 1 - 0.001259).toFixed(6), (centerPoint[1] * 1 + 0.000655).toFixed(6)];
+    pointsArray[3] = [(centerPoint[0] * 1 - 0.00135).toFixed(6), (centerPoint[1] * 1 + 0.001264).toFixed(6)];
+    pointsArray[4] = [(centerPoint[0] * 1 - 0.000534).toFixed(6), (centerPoint[1] * 1 + 0.000943).toFixed(6)];
+    pointsArray[5] = [(centerPoint[0] * 1 - 0.000599).toFixed(6), (centerPoint[1] * 1 + 0.000521).toFixed(6)];
+    pointsArray[6] = [(centerPoint[0] * 1 - 0.000613).toFixed(6), (centerPoint[1] * 1 + 0.000019).toFixed(6)];
+    pointsArray[7] = [(centerPoint[0] * 1 + 0.000477).toFixed(6), (centerPoint[1] * 1 + 0.000974).toFixed(6)];
+    pointsArray[8] = [(centerPoint[0] * 1 + 0.000542).toFixed(6), (centerPoint[1] * 1 + 0.0002).toFixed(6)];
+    pointsArray[9] = [(centerPoint[0] * 1 + 0.000246).toFixed(6), (centerPoint[1] * 1 - 0.00032).toFixed(6)];
+    pointsArray[10] = [(centerPoint[0] * 1 + 0.001141).toFixed(6), (centerPoint[1] * 1 - 0.00101).toFixed(6)];
+    pointsArray[11] = [(centerPoint[0] * 1 + 0.000511).toFixed(6), (centerPoint[1] * 1 - 0.001155).toFixed(6)];
+    pointsArray[12] = [(centerPoint[0] * 1 - 0.000467).toFixed(6), (centerPoint[1] * 1 - 0.00082).toFixed(6)];
+    pointsArray[13] = [(centerPoint[0] * 1 - 0.000424).toFixed(6), (centerPoint[1] * 1 - 0.001342).toFixed(6)];
+    pointsArray[14] = [(centerPoint[0] * 1 - 0.001023).toFixed(6), (centerPoint[1] * 1 - 0.000934).toFixed(6)];
+    pointsArray[15] = [centerPoint[0], centerPoint[1]];
+  }
 
   removeAllPoints(modlesPointsGraphicLayer);
   getMap().then((map: mars3d.Map) => {
@@ -502,9 +525,9 @@ export function addPointSelectProvince(centerPoints: any, modelsUrls: any): void
     // map.addLayer(graphicLayer);
     for (let i = 0, len = pointsArray.length; i < len; i++) {
       let item: any = i;
-      item = modelsUrls['模型设施'][i];
+      item = modelsUrls[modelName][i];
 
-      const position = mars3d.Cesium.Cartesian3.fromDegrees(pointsArray[i][0] * 1, pointsArray[i][1] * 1, 15);
+      const position = mars3d.Cesium.Cartesian3.fromDegrees(pointsArray[i][0] * 1, pointsArray[i][1] * 1, 12);
       const primitive = new mars3d.graphic.BillboardPrimitive({
         position: position,
         name: item.type + '-' + '养殖场',
@@ -620,13 +643,13 @@ export function manageLayer(layerName: string, type: string) {
   });
 }
 
-export function add3DTiesModel(goToCenter: any, modelsUrls: any): void {
+export function add3DTiesModel(goToCenter: any, modelsUrls: any, modelName: any): void {
   clear3dModelLayer();
   getMap().then((map: mars3d.Map) => {
     // if (tiles3dLayer) {
     //   map.removeLayer(tiles3dLayer);
     // }
-    const url = `${import.meta.env.BASE_URL}${modelsUrls['所有模型']['当前加载的模型']}`;
+    const url = `${import.meta.env.BASE_URL}${modelsUrls['所有模型'][modelName]}`;
     tiles3dLayer = new mars3d.layer.TilesetLayer({
       id: '养殖场模型',
       url: url,

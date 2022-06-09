@@ -8,27 +8,27 @@
       </div>
       <div class="ball-case">
         <div class="item item0">
-          <span class="num-color num-color0">{{ echarts1Datas['养殖户数'] }}</span>
+          <span class="num-color num-color0">{{ echarts0Datas['养殖户数'] }}</span>
           <span class="text-color">养殖户数</span>
         </div>
         <div class="item item1">
-          <span class="num-color num-color1">{{ echarts1Datas['家禽数'] }}</span>
+          <span class="num-color num-color1">{{ echarts0Datas['家禽数'] }}</span>
           <span class="text-color">家禽数</span>
         </div>
         <div class="item item2">
-          <span class="num-color num-color2">{{ echarts1Datas['养猪户数'] }}</span>
+          <span class="num-color num-color2">{{ echarts0Datas['养猪户数'] }}</span>
           <span class="text-color">养猪户数</span>
         </div>
         <div class="item item3">
-          <span class="num-color num-color3">{{ echarts1Datas['生猪数'] }}</span>
+          <span class="num-color num-color3">{{ echarts0Datas['生猪数'] }}</span>
           <span class="text-color">生猪数</span>
         </div>
         <div class="item item4">
-          <span class="num-color num-color4">{{ echarts1Datas['能繁母猪数'] }}</span>
+          <span class="num-color num-color4">{{ echarts0Datas['能繁母猪数'] }}</span>
           <span class="text-color">能繁母猪数</span>
         </div>
         <div class="item item5">
-          <span class="num-color num-color5">{{ echarts1Datas['牛羊犬数'] }}</span>
+          <span class="num-color num-color5">{{ echarts0Datas['牛羊犬数'] }}</span>
           <span class="text-color">牛羊犬数</span>
         </div>
       </div>
@@ -86,21 +86,21 @@ onMounted(async () => {
     const getEchartTwo: any = document.getElementById('chart2');
     const getEchartThree: any = document.getElementById('chart3');
 
-    option1.title.text = echartsDatas.echarts1Datas['标题'];
-    option1.xAxis.data = echartsDatas.echarts1Datas['横轴类别'];
-    option1.series[0].data = echartsDatas.echarts1Datas['数量'];
+    option1.title.text = echartsDatas.echartsZSData['标题'];
+    option1.xAxis.data = echartsDatas.echartsZSData['横轴类别'];
+    option1.series[0].data = echartsDatas.echartsZSData['数量'];
     chartOne = echarts.init(getEchartOne);
     chartOne.setOption(option1);
 
-    option2.title.text = echartsDatas.echarts2Datas['标题'];
-    option2.xAxis.data = echartsDatas.echarts2Datas['横轴类别'];
-    option2.series[0].data = echartsDatas.echarts2Datas['数量'];
+    option2.title.text = echartsDatas.echartsCDData['标题'];
+    option2.xAxis.data = echartsDatas.echartsCDData['横轴类别'];
+    option2.series[0].data = echartsDatas.echartsCDData['数量'];
     chartTwo = echarts.init(getEchartTwo);
     chartTwo.setOption(option2);
 
-    option3.title.text = echartsDatas.echarts3Datas['标题'];
-    option3.xAxis.data = echartsDatas.echarts3Datas['横轴类别'];
-    option3.series[0].data = echartsDatas.echarts3Datas['数量'];
+    option3.title.text = echartsDatas.echartsTZData['标题'];
+    option3.xAxis.data = echartsDatas.echartsTZData['横轴类别'];
+    option3.series[0].data = echartsDatas.echartsTZData['数量'];
     chartThree = echarts.init(getEchartThree);
     chartThree.setOption(option3);
   }, 800);

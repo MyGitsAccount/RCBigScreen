@@ -154,11 +154,12 @@ useMapRegion.$subscribe(
     removeLegendPoint();
     mapWork.clear3dModelLayer();
     removePointGraphic(mapWork.pointGraphicLayer);
+    isShowBack.value = false;
     if (useMapRegion.getRegionArea.code === '500') {
-      isShowBack.value = false;
+      // isShowBack.value = false;
       loadLegendPoint({ detailInfo: detailInfo.value });
     } else {
-      isShowBack.value = true;
+      // isShowBack.value = true;
       for (let i = 0; i < detailInfo.value.length; i++) {
         if (detailInfo.value[i].name === useMapRegion.getRegionArea.name) {
           if (detailInfo.value[i].data) {
@@ -176,6 +177,7 @@ useMapRegion.$subscribe(
 );
 
 eventTarget.on('moreDetail', event => {
+  isShowBack.value = true;
   const deleteObj = [
     'calibGroupWall',
     'calibGroupcalib',
@@ -186,11 +188,13 @@ eventTarget.on('moreDetail', event => {
   for (let i = 0; i < deleteObj.length; i++) {
     mapWork.clearAllLayerOfGraphic(deleteObj[i]);
   }
+  const modelName = event.graphics.attr.modelName;
+
   const modelPoint = [event.graphics._point._lng, event.graphics._point._lat];
   mapWork.removeWall(useMapRegionStore().$state.regionArea.name + '边界墙');
   removePointGraphic(mapWork.pointGraphicLayer);
-  mapWork.add3DTiesModel(modelPoint, modelsPoint);
-  mapWork.addPointSelectProvince(modelPoint, modelsPoint);
+  mapWork.add3DTiesModel(modelPoint, modelsPoint, modelName);
+  mapWork.addPointSelectProvince(modelPoint, modelsPoint, modelName);
 });
 
 function removeAnything(): void {
@@ -199,6 +203,7 @@ function removeAnything(): void {
 }
 
 function goBackPrevious(): void {
+  isShowBack.value = false;
   removeAnything();
   const name: string = useMapRegionStore().$state.regionArea.name as string;
   mapWork.addProvince(name, cqGeoJson.value);

@@ -6,6 +6,7 @@ import { useMapRegionStore } from '@/store';
 
 export let graphicLayer: mars3d.layer.GraphicLayer | undefined; // 重庆行政区划图层对象
 export let chinaGraphicLayer: mars3d.layer.GraphicLayer | undefined; // 全国行政区划图层对象
+export let maskJsonLayer: mars3d.layer.GeoJsonLayer | undefined; // 全国行政区划图层对象
 
 /**
  * 图层初始化
@@ -189,6 +190,69 @@ export function changeGeoJson(isChinaShow: boolean): void {
       if (!isChinaShow) {
         map.flyToGraphic(cqGraphicLayer);
       }
+    }
+  });
+}
+//#endregion
+
+//#region 绘制反遮罩
+/**
+ * 绘制反遮罩
+ */
+export function drawMaskGeojsonLayer(selectName: string, cqGeoJson: any): void {
+  getMap().then((map: mars3d.Map) => {
+    let selectProvince: any = '';
+    cqGeoJson.features.forEach((item: any, index: number) => {
+      if (item.properties.name === selectName) {
+        selectProvince = cqGeoJson.features[index];
+      }
+    });
+    // 将对象转为二进制流，再转为url加载，用data的方式反复加载同一个区域有bug
+    const str = JSON.stringify({
+      type: 'FeatureCollection',
+      features: [selectProvince],
+    });
+    const blob = new Blob([str], {
+      type: 'text/plain',
+    });
+    const url = window.URL.createObjectURL(blob);
+    console.log(url, 7776);
+    maskJsonLayer = new mars3d.layer.GeoJsonLayer({
+      id: 'mask_layer',
+      // url: '//data.mars3d.cn/file/geojson/areas/340100.json',
+      url: url,
+      // data: {
+      //   type: 'FeatureCollection',
+      //   features: [selectProvince],
+      // },
+      mask: true, // 标识为遮罩层【重点参数】
+      symbol: {
+        styleOptions: {
+          fill: true,
+          color: 'rgba(2, 26, 79, 0.6)',
+          // opacity: 0.9,
+          outline: false,
+          outlineColor: '#39E09B',
+          outlineWidth: 8,
+          outlineOpacity: 0.8,
+          // arcType: mars3d.Cesium.ArcType.GEODESIC,
+          clampToGround: true,
+        },
+      },
+    });
+    map.addLayer(maskJsonLayer);
+  });
+}
+
+/**
+ * 移除反遮罩
+ */
+export function removeMaskGeojsonLayer(): void {
+  getMap().then((map: mars3d.Map) => {
+    if (maskJsonLayer) {
+      maskJsonLayer.show = false;
+      map.removeLayer(maskJsonLayer);
+      maskJsonLayer = undefined;
     }
   });
 }

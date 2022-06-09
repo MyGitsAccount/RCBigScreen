@@ -168,7 +168,6 @@
     },
     {
       "value": 20,
-      "level": 2,
       "latitude": 30.660545,
       "name": "梁平区",
       "station": "荣昌区",
@@ -252,7 +251,6 @@
     },
     {
       "value": 30,
-      "level": 2,
       "latitude": 30.33035,
       "name": "忠县",
       "station": "荣昌区",
@@ -267,7 +265,6 @@
     },
     {
       "value": 50,
-      "level": 2,
       "latitude": 30.936701,
       "name": "云阳县",
       "station": "荣昌区",
