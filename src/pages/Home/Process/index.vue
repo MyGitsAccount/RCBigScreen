@@ -112,10 +112,6 @@ onMounted(() => {
 });
 
 onUnmounted(() => {
-  useMapRegionStore().changeRegionArea({
-    name: '重庆市',
-    code: '500',
-  });
   mapWork.clearLayer();
   removeLegendPoint();
 });
@@ -167,7 +163,8 @@ const getData = () => {
           }
         });
       });
-      loadLegendPoint({ detailInfo: detailInfo.value });
+      // loadLegendPoint({ detailInfo: detailInfo.value });
+      processMapData();
 
       // 右侧echarts数据处理
       trendData.value = data.trendData;
@@ -182,23 +179,30 @@ const getData = () => {
 //#region 数据订阅
 useMapRegion.$subscribe(
   mutation => {
-    removePointGraphic(mapWork.pointGraphicLayer);
-    removeLegendPoint();
-    if (useMapRegion.getRegionArea.code === '500') {
-      loadLegendPoint({ detailInfo: detailInfo.value });
-    } else {
-      for (let i = 0; i < detailInfo.value.length; i++) {
-        if (detailInfo.value[i].name === (useMapRegion.getRegionArea.name as string)) {
-          if (detailInfo.value[i].data) {
-            addResourcePoint({ data: detailInfo.value[i].data, pointGraphicLayer: mapWork.pointGraphicLayer });
-            return;
-          }
-        }
-      }
-    }
+    processMapData();
   },
   { detached: false },
 );
+
+/**
+ * 处理地图点数据
+ */
+const processMapData = () => {
+  removePointGraphic(mapWork.pointGraphicLayer);
+  removeLegendPoint();
+  if (useMapRegion.getRegionArea.code === '500') {
+    loadLegendPoint({ detailInfo: detailInfo.value });
+  } else {
+    for (let i = 0; i < detailInfo.value.length; i++) {
+      if (detailInfo.value[i].name === (useMapRegion.getRegionArea.name as string)) {
+        if (detailInfo.value[i].data) {
+          addResourcePoint({ data: detailInfo.value[i].data, pointGraphicLayer: mapWork.pointGraphicLayer });
+          return;
+        }
+      }
+    }
+  }
+};
 //#endregion
 </script>
 <script lang="ts">
@@ -208,7 +212,7 @@ export default {
 </script>
 <style scoped lang="scss">
 $baseColor: #55c2f5;
-$topHeight: 280px;
+$topHeight: 260px;
 .warp {
   color: $baseColor;
   pointer-events: all;

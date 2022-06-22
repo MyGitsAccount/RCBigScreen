@@ -14,7 +14,8 @@ export let maskJsonLayer: mars3d.layer.GeoJsonLayer | undefined; // 全国行政
  */
 export function initMap(params: { cqGeoJsonUrl: string; chinaGeoJson: string; isChinaShow: boolean }): void {
   getMap().then((map: mars3d.Map) => {
-    map.unbindContextMenu();
+    console.log(map);
+    // map.unbindContextMenu();
     addCqGeoJson({
       cqGeoJsonUrl: params.cqGeoJsonUrl,
       chinaGeoJson: params.chinaGeoJson,

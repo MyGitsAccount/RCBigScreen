@@ -36,7 +36,7 @@
     <div class="echart-item">
       <div class="echart-title echart-title1">
         <span class="all-title-color title-ch">荣昌指数</span>
-        <span class="all-title-color title-en">/RongChang Index</span>
+        <!-- <span class="all-title-color title-en">/RongChang Index</span> -->
       </div>
       <div class="chart1">
         <div v-if="isShowEchartDom" id="chart1"></div>
@@ -45,7 +45,7 @@
     <div class="echart-item">
       <div class="echart-title echart-title2">
         <span class="all-title-color title-ch">生猪产地检疫(当日)</span>
-        <span class="all-title-color title-en">/Original area quarantine</span>
+        <!-- <span class="all-title-color title-en">/Original area quarantine</span> -->
       </div>
       <div class="chart2">
         <div v-if="isShowEchartDom" id="chart2"></div>
@@ -54,7 +54,7 @@
     <div class="echart-item">
       <div class="echart-title echart-title3">
         <span class="all-title-color title-ch">生猪屠宰检疫(当日)</span>
-        <span class="all-title-color title-en">/Slaughter quarantine</span>
+        <!-- <span class="all-title-color title-en">/Slaughter quarantine</span> -->
       </div>
       <div class="chart3">
         <div v-if="isShowEchartDom" id="chart3"></div>
@@ -86,9 +86,18 @@ onMounted(async () => {
     const getEchartTwo: any = document.getElementById('chart2');
     const getEchartThree: any = document.getElementById('chart3');
 
-    option1.title.text = echartsDatas.echartsZSData['标题'];
-    option1.xAxis.data = echartsDatas.echartsZSData['横轴类别'];
-    option1.series[0].data = echartsDatas.echartsZSData['数量'];
+    // option1.title.text = echartsDatas.echartsZSData['标题'];
+    // option1.xAxis.data = echartsDatas.echartsZSData['横轴类别'];
+    // option1.series[0].data = echartsDatas.echartsZSData['数量'];
+    // console.log(echartsDatas.echartsZSData.reverse(), 999);
+    const xAxis: any = [];
+    const zsData: any = [];
+    echartsDatas.echartsZSData.forEach((item: any) => {
+      xAxis.push(item.publishYear + '.' + item.publishMonth + '.' + item.publishDate);
+      zsData.push(item.sowIndex);
+    });
+    option1.xAxis.data = xAxis;
+    option1.series[0].data = zsData;
     chartOne = echarts.init(getEchartOne);
     chartOne.setOption(option1);
 

@@ -33,6 +33,10 @@ const routes: RouteRecordRaw[] = [
         path: '/dashboard/Supervision',
         component: () => import('@/pages/Home/Supervision/index.vue'),
       },
+      {
+        path: '/dashboard/Feces',
+        component: () => import('@/pages/Home/Feces/index.vue'),
+      },
     ],
   },
   {

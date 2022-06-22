@@ -82,10 +82,6 @@ onMounted(() => {
 });
 
 onUnmounted(() => {
-  useMapRegionStore().changeRegionArea({
-    name: '重庆市',
-    code: '500',
-  });
   mapWork.clearLayer();
   removeLegendPoint();
 });
@@ -118,7 +114,8 @@ const getData = () => {
         }
       });
     });
-    loadLegendPoint({ detailInfo: detailInfo.value });
+    // loadLegendPoint({ detailInfo: detailInfo.value });
+    processMapData();
   });
 };
 
@@ -127,25 +124,32 @@ const getData = () => {
 //#region 数据订阅
 useMapRegion.$subscribe(
   mutation => {
-    removePointGraphic(mapWork.pointGraphicLayer);
-    removeLegendPoint();
-    if (useMapRegion.getRegionArea.code === '500') {
-      // mapWork.changeEchartsLayer(true);
-      loadLegendPoint({ detailInfo: detailInfo.value });
-    } else {
-      // mapWork.changeEchartsLayer(false);
-      for (let i = 0; i < detailInfo.value.length; i++) {
-        if (detailInfo.value[i].name === useMapRegion.getRegionArea.name) {
-          if (detailInfo.value[i].data) {
-            addResourcePoint({ data: detailInfo.value[i].data, pointGraphicLayer: mapWork.pointGraphicLayer });
-            return;
-          }
-        }
-      }
-    }
+    processMapData();
   },
   { detached: false },
 );
+
+/**
+ * 处理地图点数据
+ */
+const processMapData = () => {
+  removePointGraphic(mapWork.pointGraphicLayer);
+  removeLegendPoint();
+  if (useMapRegion.getRegionArea.code === '500') {
+    // mapWork.changeEchartsLayer(true);
+    loadLegendPoint({ detailInfo: detailInfo.value });
+  } else {
+    // mapWork.changeEchartsLayer(false);
+    for (let i = 0; i < detailInfo.value.length; i++) {
+      if (detailInfo.value[i].name === useMapRegion.getRegionArea.name) {
+        if (detailInfo.value[i].data) {
+          addResourcePoint({ data: detailInfo.value[i].data, pointGraphicLayer: mapWork.pointGraphicLayer });
+          return;
+        }
+      }
+    }
+  }
+};
 
 eventTarget.on('moreDetail', event => {
   // console.log(9999, event);

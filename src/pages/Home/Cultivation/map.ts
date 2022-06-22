@@ -468,6 +468,42 @@ export function addPointSelectProvince(centerPoints: any, modelsUrls: any, model
     pointsArray[1] = [(centerPoint[0] * 1 + 0.000638).toFixed(6), (centerPoint[1] * 1 + 0.00012).toFixed(6)];
     pointsArray[2] = [(centerPoint[0] * 1 + 0.001414).toFixed(6), (centerPoint[1] * 1 - 0.000696).toFixed(6)];
     pointsArray[3] = [centerPoint[0], centerPoint[1]];
+  } else if (modelName === 'linxi') {
+    pointsArray[0] = [(centerPoint[0] * 1 - 0.000326).toFixed(6), (centerPoint[1] * 1 - 0.000295).toFixed(6)];
+    pointsArray[1] = [(centerPoint[0] * 1 - 0.000613).toFixed(6), (centerPoint[1] * 1 + 0.000248).toFixed(6)];
+    pointsArray[2] = [(centerPoint[0] * 1 - 0.000522).toFixed(6), (centerPoint[1] * 1 - 0.000361).toFixed(6)];
+    pointsArray[3] = [(centerPoint[0] * 1 - 0.000971).toFixed(6), (centerPoint[1] * 1 + 0.000463).toFixed(6)];
+  } else if (modelName === 'daixing') {
+    pointsArray[0] = [(centerPoint[0] * 1 - 0.000722).toFixed(6), (centerPoint[1] * 1 - 0.000475).toFixed(6)];
+    pointsArray[1] = [(centerPoint[0] * 1 - 0.001223).toFixed(6), (centerPoint[1] * 1 + 0.000121).toFixed(6)];
+    pointsArray[2] = [(centerPoint[0] * 1 - 0.001279).toFixed(6), (centerPoint[1] * 1 + 0.000994).toFixed(6)];
+  } else if (modelName === 'hezhong') {
+    pointsArray[0] = [(centerPoint[0] * 1 - 0.00012).toFixed(6), (centerPoint[1] * 1 - 0.000568).toFixed(6)];
+    pointsArray[1] = [(centerPoint[0] * 1 + 0.000021).toFixed(6), (centerPoint[1] * 1 + 0.000119).toFixed(6)];
+    pointsArray[2] = [(centerPoint[0] * 1 - 0.00043).toFixed(6), (centerPoint[1] * 1 + 0.000092).toFixed(6)];
+    pointsArray[3] = [(centerPoint[0] * 1 + 0.000171).toFixed(6), (centerPoint[1] * 1 + 0.00059).toFixed(6)];
+    pointsArray[4] = [(centerPoint[0] * 1 - 0.000138).toFixed(6), (centerPoint[1] * 1 + 0.000575).toFixed(6)];
+  } else if (modelName === 'kangzhuang') {
+    pointsArray[0] = [(centerPoint[0] * 1 + 0.000766).toFixed(6), (centerPoint[1] * 1 + 0.000229).toFixed(6)];
+    pointsArray[1] = [(centerPoint[0] * 1 - 0.0001).toFixed(6), (centerPoint[1] * 1 + 0.00022).toFixed(6)];
+    pointsArray[2] = [(centerPoint[0] * 1 + 0.00152).toFixed(6), (centerPoint[1] * 1 - 0.000558).toFixed(6)];
+  } else if (modelName === 'zhenyang') {
+    pointsArray[0] = [(centerPoint[0] * 1 + 0.001283).toFixed(6), (centerPoint[1] * 1 + 0.000461).toFixed(6)];
+    pointsArray[1] = [(centerPoint[0] * 1 - 0.000203).toFixed(6), (centerPoint[1] * 1 + 0.000165).toFixed(6)];
+    pointsArray[2] = [(centerPoint[0] * 1 + 0.000313).toFixed(6), (centerPoint[1] * 1 + 0.001068).toFixed(6)];
+  } else if (modelName === 'tianzhao') {
+    pointsArray[0] = [(centerPoint[0] * 1 - 0.000663).toFixed(6), (centerPoint[1] * 1 + 0.000051).toFixed(6)];
+    pointsArray[1] = [(centerPoint[0] * 1 + 0.000527).toFixed(6), (centerPoint[1] * 1 + 0.000142).toFixed(6)];
+    pointsArray[2] = [(centerPoint[0] * 1 - 0.001395).toFixed(6), (centerPoint[1] * 1 + 0.001262).toFixed(6)];
+    pointsArray[3] = [(centerPoint[0] * 1 - 0.001014).toFixed(6), (centerPoint[1] * 1 - 0.000924).toFixed(6)];
+  } else if (modelName === 'changda') {
+    pointsArray[0] = [(centerPoint[0] * 1 - 0.000478).toFixed(6), (centerPoint[1] * 1 + 0.00004).toFixed(6)];
+    pointsArray[1] = [(centerPoint[0] * 1 + 0.000175).toFixed(6), (centerPoint[1] * 1 - 0.00022).toFixed(6)];
+    pointsArray[2] = [(centerPoint[0] * 1 - 0.000232).toFixed(6), (centerPoint[1] * 1 - 0.000752).toFixed(6)];
+  } else if (modelName === 'xukeyuan') {
+    pointsArray[0] = [(centerPoint[0] * 1 - 0.003476).toFixed(6), (centerPoint[1] * 1 + 0.000185).toFixed(6)];
+    pointsArray[1] = [(centerPoint[0] * 1 - 0.001245).toFixed(6), (centerPoint[1] * 1 + 0.000047).toFixed(6)];
+    pointsArray[2] = [(centerPoint[0] * 1 + 0.001722).toFixed(6), (centerPoint[1] * 1 + 0.001286).toFixed(6)];
   } else {
     pointsArray[0] = [(centerPoint[0] * 1 - 0.001521).toFixed(6), (centerPoint[1] * 1 - 0.000093).toFixed(6)];
     pointsArray[1] = [(centerPoint[0] * 1 - 0.001595).toFixed(6), (centerPoint[1] * 1 - 0.000555).toFixed(6)];
@@ -963,4 +999,17 @@ export interface ScrollItem extends Super {
   devName: string;
   dataTime: string;
   equipmentValue: string;
+}
+
+export interface BreedingRate extends Super {
+  year: string;
+  value: string;
+  isRealize: boolean;
+}
+
+export interface FarmCllItem extends Super {
+  name: string;
+  yfz: number;
+  mzcl: number;
+  gzcl: number;
 }

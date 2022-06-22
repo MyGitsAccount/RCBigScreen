@@ -152,7 +152,7 @@ export function bindGraphicPopupByResource(
     });
   } else if (type === 'cultivation') {
     graphic = graphics.bindPopup('1', {
-      template: popupStyleResource(data, type),
+      template: popupStyleResource(data, type, graphics),
       ...options,
     });
   }
@@ -182,7 +182,7 @@ export function bindGraphicPopupByResource(
  * @param data
  * @returns
  */
-export function popupStyleResource(data: any, type: string): string {
+export function popupStyleResource(data: any, type: string, graphics?: mars3d.graphic.BaseGraphic): string {
   const style = `
   <style>
   .resource-pop-box {
@@ -298,7 +298,8 @@ export function popupStyleResource(data: any, type: string): string {
   });
 
   let htmlAfter = ``;
-  if (type === 'cultivation') {
+  console.log(graphics, 9999);
+  if (type === 'cultivation' && graphics?.attr?.modelName) {
     htmlAfter += `
       </div>
         </div>

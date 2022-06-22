@@ -40,9 +40,16 @@ export interface BrandItem extends Super {
   data: any;
 }
 
-export interface ScrollItem extends Super {
+export interface PorkPriceItem extends Super {
   unit: string;
   pigPrice: string;
   whitePrice: string;
   dataTime: string;
+}
+
+export interface PortfolioItem extends Super {
+  name: string;
+  value: string;
+  staus: string;
+  time: string;
 }

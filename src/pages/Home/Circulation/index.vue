@@ -44,6 +44,10 @@ const tabList = ref<TabList[]>([
 
 //#region 生命周期
 onMounted(() => {
+  useMapRegionStore().changeRegionArea({
+    name: '重庆市',
+    code: '500',
+  });
   mapWork.initMap();
   getData();
 });

@@ -157,13 +157,12 @@
     {
       "value": 3,
       "latitude": 29.423195,
+      "longitude": 105.618228,
       "name": "荣昌区",
       "data": [
         {
           "name": "琪泰养殖场",
           "modelName": "qitaizc",
-          "longitude1": 105.588228,
-          "latitude1": 29.353195,
           "longitude": 105.331246,
           "latitude": 29.56284,
           "list": {
@@ -178,8 +177,6 @@
           "modelName": "sanyou",
           "longitude": 105.422904,
           "latitude": 29.548465,
-          "longitude1": 105.528228,
-          "latitude1": 29.450195,
           "list": {
             "存栏总数": 502,
             "母猪": 100,
@@ -190,10 +187,115 @@
         {
           "name": "维衡养殖场",
           "modelName": "weihengzc",
-          "longitude": 105.586408,
-          "latitude": 29.373829,
-          "longitude1": 105.453788,
-          "latitude1": 29.403409,
+          "longitude": 105.674282,
+          "latitude": 29.368186,
+          "list": {
+            "存栏总数": 502,
+            "母猪": 100,
+            "种公猪": 112,
+            "育肥猪": 290
+          }
+        },
+        {
+          "name": "艾迪（林夕）",
+          "modelName": "linxi",
+          "longitude": 105.706529,
+          "latitude": 29.450783,
+          "list": {
+            "存栏总数": 502,
+            "母猪": 100,
+            "种公猪": 112,
+            "育肥猪": 290
+          }
+        },
+        {
+          "name": "代兴养殖场",
+          "modelName": "daixing",
+          "longitude": 105.398011,
+          "latitude": 29.660603,
+          "list": {
+            "存栏总数": 502,
+            "母猪": 100,
+            "种公猪": 112,
+            "育肥猪": 290
+          }
+        },
+        {
+          "name": "禾众养殖场",
+          "modelName": "hezhong",
+          "longitude": 105.360305,
+          "latitude": 29.550294,
+          "list": {
+            "存栏总数": 502,
+            "母猪": 100,
+            "种公猪": 112,
+            "育肥猪": 290
+          }
+        },
+        {
+          "name": "康庄养殖场",
+          "modelName": "kangzhuang",
+          "longitude": 105.619852,
+          "latitude": 29.334297,
+          "list": {
+            "存栏总数": 502,
+            "母猪": 100,
+            "种公猪": 112,
+            "育肥猪": 290
+          }
+        },
+        {
+          "name": "镇阳养殖场",
+          "modelName": "zhenyang",
+          "longitude": 105.720211,
+          "latitude": 29.410563,
+          "list": {
+            "存栏总数": 502,
+            "母猪": 100,
+            "种公猪": 112,
+            "育肥猪": 290
+          }
+        },
+        {
+          "name": "天兆养殖场",
+          "modelName": "tianzhao",
+          "longitude": 105.593912,
+          "latitude": 29.339729,
+          "list": {
+            "存栏总数": 502,
+            "母猪": 100,
+            "种公猪": 112,
+            "育肥猪": 290
+          }
+        },
+        {
+          "name": "昌大养殖场",
+          "modelName": "changda",
+          "longitude": 105.559318,
+          "latitude": 29.300427,
+          "list": {
+            "存栏总数": 502,
+            "母猪": 100,
+            "种公猪": 112,
+            "育肥猪": 290
+          }
+        },
+        {
+          "name": "畜科院养殖场",
+          "modelName": "xukeyuan",
+          "longitude": 105.599111,
+          "latitude": 29.319173,
+          "list": {
+            "存栏总数": 502,
+            "母猪": 100,
+            "种公猪": 112,
+            "育肥猪": 290
+          }
+        },
+        {
+          "name": "农神控股养殖场",
+          "longitude": 105.584341,
+          "latitude": 29.330937,
           "list": {
             "存栏总数": 502,
             "母猪": 100,
@@ -201,8 +303,7 @@
             "育肥猪": 290
           }
         }
-      ],
-      "longitude": 105.618228
+      ]
     },
     {
       "value": 0,
@@ -320,32 +421,50 @@
   "culiivationFactory": [
     {
       "name": "兴建养殖场",
-      "lnglat": [109.001454, 29.123456],
+      "lnglat": [
+        109.001454,
+        29.123456
+      ],
       "img": "images/cultivation/feed_icon.png"
     },
     {
       "name": "兴建养殖场1",
-      "lnglat": [109.001354, 29.124456],
+      "lnglat": [
+        109.001354,
+        29.124456
+      ],
       "img": "images/cultivation/feed_icon.png"
     },
     {
       "name": "兴建养殖场2",
-      "lnglat": [109.001254, 29.125456],
+      "lnglat": [
+        109.001254,
+        29.125456
+      ],
       "img": "images/cultivation/feed_icon.png"
     },
     {
       "name": "兴建养殖场3",
-      "lnglat": [109.001154, 29.123656],
+      "lnglat": [
+        109.001154,
+        29.123656
+      ],
       "img": "images/cultivation/feed_icon.png"
     },
     {
       "name": "兴建养殖场4",
-      "lnglat": [109.001054, 29.123756],
+      "lnglat": [
+        109.001054,
+        29.123756
+      ],
       "img": "images/cultivation/feed_icon.png"
     },
     {
       "name": "兴建养殖场5",
-      "lnglat": [109.009954, 29.123856],
+      "lnglat": [
+        109.009954,
+        29.123856
+      ],
       "img": "images/cultivation/feed_icon.png"
     }
   ],
@@ -666,10 +785,17 @@
   "modlesData": {
     "所有模型": {
       "当前加载的模型": "models/tianzhao/tileset.json",
-      "tianzhao": "models/tianzhao/tileset.json",
       "qitaizc": "models/qitaizc/tileset.json",
       "sanyou": "models/sanyou/tileset.json",
-      "weihengzc": "models/weihengzc/tileset.json"
+      "weihengzc": "models/weihengzc/tileset.json",
+      "linxi": "models/linxi/tileset.json",
+      "daixing": "models/daixing/tileset.json",
+      "kangzhuang": "models/kangzhuang/tileset.json",
+      "hezhong": "models/hezhong/tileset.json",
+      "zhenyang": "models/zhenyang/tileset.json",
+      "tianzhao": "models/tianzhao/tileset.json",
+      "changda": "models/changda/tileset.json",
+      "xukeyuan": "models/xukeyuan/tileset.json"
     },
     "模型设施": [
       {
@@ -828,6 +954,315 @@
         "type": "other",
         "img": ""
       }
+    ],
+    "linxi": [
+      {
+        "name": "办公区",
+        "type": "other",
+        "img": ""
+      },
+      {
+        "name": "饲养场",
+        "type": "camera",
+        "img": "images/cultivation/camera.png"
+      },
+      {
+        "name": "一级洗消",
+        "type": "other",
+        "img": "images/cultivation/make.png"
+      },
+      {
+        "name": "加工厂",
+        "type": "other",
+        "img": "images/cultivation/make.png"
+      }
+    ],
+    "daixing": [
+      {
+        "name": "办公区",
+        "type": "other",
+        "img": ""
+      },
+      {
+        "name": "饲养场",
+        "type": "camera",
+        "img": "images/cultivation/camera.png"
+      },
+      {
+        "name": "化粪池",
+        "type": "other",
+        "img": ""
+      }
+    ],
+    "hezhong": [
+      {
+        "name": "办公区",
+        "type": "other",
+        "img": ""
+      },
+      {
+        "name": "饲养场",
+        "type": "camera",
+        "img": "images/cultivation/camera.png"
+      },
+      {
+        "name": "蓄水池",
+        "type": "other",
+        "img": ""
+      },
+      {
+        "name": "加工厂",
+        "type": "other",
+        "img": "images/cultivation/make.png"
+      },
+      {
+        "name": "化粪池",
+        "type": "other",
+        "img": ""
+      }
+    ],
+    "kangzhuang": [
+      {
+        "name": "办公区",
+        "type": "other",
+        "img": ""
+      },
+      {
+        "name": "饲养场",
+        "type": "camera",
+        "img": "images/cultivation/camera.png"
+      },
+      {
+        "name": "加工厂",
+        "type": "other",
+        "img": "images/cultivation/make.png"
+      }
+    ],
+    "zhenyang": [
+      {
+        "name": "办公区",
+        "type": "other",
+        "img": ""
+      },
+      {
+        "name": "饲养场",
+        "type": "camera",
+        "img": "images/cultivation/camera.png"
+      },
+      {
+        "name": "化粪池",
+        "type": "other",
+        "img": ""
+      }
+    ],
+    "tianzhao": [
+      {
+        "name": "办公区",
+        "type": "other",
+        "img": ""
+      },
+      {
+        "name": "饲养场",
+        "type": "camera",
+        "img": "images/cultivation/camera.png"
+      },
+      {
+        "name": "蓄水池",
+        "type": "other",
+        "img": ""
+      },
+      {
+        "name": "化粪池",
+        "type": "other",
+        "img": ""
+      }
+    ],
+    "changda": [
+      {
+        "name": "办公区",
+        "type": "other",
+        "img": ""
+      },
+      {
+        "name": "设备室",
+        "type": "camera",
+        "img": "images/cultivation/camera.png"
+      },
+      {
+        "name": "加工厂",
+        "type": "other",
+        "img": "images/cultivation/make.png"
+      }
+    ],
+    "xukeyuan": [
+      {
+        "name": "办公区",
+        "type": "other",
+        "img": ""
+      },
+      {
+        "name": "饲养场",
+        "type": "camera",
+        "img": "images/cultivation/camera.png"
+      },
+      {
+        "name": "饲料加工厂",
+        "type": "other",
+        "img": "images/cultivation/make.png"
+      }
     ]
-  }
+  },
+  "streetTownData": [
+    {
+      "name": "安富街道",
+      "yfz": 1500,
+      "mzcl": 244,
+      "gzcl": 0
+    },
+    {
+      "name": "昌元街道",
+      "yfz": 1490,
+      "mzcl": 200,
+      "gzcl": 90
+    },
+    {
+      "name": "昌州街道",
+      "yfz": 3149,
+      "mzcl": 650,
+      "gzcl": 423
+    },
+    {
+      "name": "峰高街道",
+      "yfz": 5174,
+      "mzcl": 1167,
+      "gzcl": 40
+    },
+    {
+      "name": "广顺街道",
+      "yfz": 3700,
+      "mzcl": 419,
+      "gzcl": 745
+    },
+    {
+      "name": "河包镇",
+      "yfz": 6350,
+      "mzcl": 59,
+      "gzcl": 0
+    },
+    {
+      "name": "仁义镇",
+      "yfz": 1738,
+      "mzcl": 110,
+      "gzcl": 0
+    },
+    {
+      "name": "双河街道",
+      "yfz": 36799,
+      "mzcl": 8404,
+      "gzcl": 164
+    },
+    {
+      "name": "铜鼓镇",
+      "yfz": 10,
+      "mzcl": 1,
+      "gzcl": 0
+    },
+    {
+      "name": "吴家镇",
+      "yfz": 1122,
+      "mzcl": 110,
+      "gzcl": 28
+    },
+    {
+      "name": "远觉镇",
+      "yfz": 2887,
+      "mzcl": 0,
+      "gzcl": 0
+    },
+    {
+      "name": "直升镇",
+      "yfz": 300,
+      "mzcl": 120,
+      "gzcl": 0
+    },
+    {
+      "name": "盘龙镇",
+      "yfz": 7311,
+      "mzcl": 0,
+      "gzcl": 0
+    }
+  ],
+  "farmCllData": [
+    {
+      "name": "琪泰",
+      "yfz": 3901,
+      "mzcl": 0,
+      "gzcl": 0
+    },
+    {
+      "name": "艾迪",
+      "yfz": 1000,
+      "mzcl": 0,
+      "gzcl": 0
+    },
+    {
+      "name": "代兴",
+      "yfz": 2000,
+      "mzcl": 1,
+      "gzcl": 0
+    },
+    {
+      "name": "禾众",
+      "yfz": 0,
+      "mzcl": 0,
+      "gzcl": 0
+    },
+    {
+      "name": "康庄",
+      "yfz": 2200,
+      "mzcl": 0,
+      "gzcl": 0
+    },
+    {
+      "name": "叁友",
+      "yfz": 2113,
+      "mzcl": 0,
+      "gzcl": 0
+    },
+    {
+      "name": "维衡",
+      "yfz": 532,
+      "mzcl": 20,
+      "gzcl": 8
+    },
+    {
+      "name": "镇阳",
+      "yfz": 2400,
+      "mzcl": 230,
+      "gzcl": 3
+    },
+    {
+      "name": "畜科院",
+      "yfz": 0,
+      "mzcl": 0,
+      "gzcl": 0
+    }
+  ],
+  "breedingRate": [
+    {
+      "year": "2020",
+      "value": "20",
+      "isRealize": true
+    },
+    {
+      "year": "2021",
+      "value": "30",
+      "isRealize": true
+    },
+    {
+      "year": "2022",
+      "value": "50",
+      "isRealize": false
+    }
+  ]
 }

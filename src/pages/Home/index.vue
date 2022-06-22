@@ -39,10 +39,10 @@ import { getJson } from '@/utils/mapCommon';
 useLifecycle(mapWork, GETMAPINSTANCE);
 
 //#region 定义变量
-const configUrl = `${import.meta.env.BASE_URL}config/config.json`;
-const areaSelectUrl = `${import.meta.env.BASE_URL}config/region.json`;
-const cqGeoJsonUrl = `${import.meta.env.BASE_URL}config/cq_geo.json`;
-const chinaGeoJson = `${import.meta.env.BASE_URL}config/china_geo.json`;
+const configUrl = `${import.meta.env.BASE_URL}config/static/config.json`;
+const areaSelectUrl = `${import.meta.env.BASE_URL}config/static/region.json`;
+const cqGeoJsonUrl = `${import.meta.env.BASE_URL}config/static/cq_geo.json`;
+const chinaGeoJson = `${import.meta.env.BASE_URL}config/static/china_geo.json`;
 let mapInstance: mars3d.Map | undefined = undefined;
 provide('getMapInstance', () => {
   return mapInstance;

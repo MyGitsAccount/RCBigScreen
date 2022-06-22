@@ -82,6 +82,7 @@ export const option1 = {
       data: [820, 932, 901, 934, 1290, 1330, 1320],
       type: 'line',
       smooth: true,
+      showAllSymbol: false,
       itemStyle: {
         normal: {
           color: '#17bcff',

@@ -61,7 +61,7 @@ const tabs = ref([
   },
   {
     id: 4,
-    name: '品牌',
+    name: '溯源',
     router: '/dashboard/Brand',
     img: getImage('images/Components/Sidebar/pinpai-bg.png'),
     activeImg: getImage('images/Components/Sidebar/pinpai-bg1.png'),
@@ -72,6 +72,13 @@ const tabs = ref([
     router: '/dashboard/Supervision',
     img: getImage('images/Components/Sidebar/jianguan-bg.png'),
     activeImg: getImage('images/Components/Sidebar/jianguan-bg1.png'),
+  },
+  {
+    id: 6,
+    name: '粪污',
+    router: '/dashboard/Feces',
+    img: getImage('images/Components/Sidebar/suyuan-bg.png'),
+    activeImg: getImage('images/Components/Sidebar/suyuan-bg1.png'),
   },
 ]);
 /** 当前选择的菜单 */
@@ -111,7 +118,7 @@ $baseColor: #55c2f5;
 $activeColor: #c8923d;
 .warp {
   width: 170px;
-  height: 84%;
+  height: 90%;
   left: 40px;
   top: 60%;
   -webkit-transform: translate(0%, -60%);
@@ -121,7 +128,11 @@ $activeColor: #c8923d;
 
   .sidebar-box {
     // height: calc(100% - 120px);
-    @apply flex flex-col justify-around items-center w-full h-full;
+    overflow-y: auto;
+    @apply flex-1 flex flex-col items-center w-full;
+    &::-webkit-scrollbar {
+      display: none;
+    }
     .item {
       padding: 10px 0;
       color: $baseColor;

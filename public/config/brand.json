@@ -374,90 +374,196 @@
       "longitude": 108.172227
     }
   ],
-  "brandScroll": [
+  "porkPrice": [
     {
       "unit": "元/kg",
       "controlType": "06",
       "dataTime": "2022-05-30",
-      "pigPrice": "22",
-      "whitePrice": "18"
+      "pigPrice": "18",
+      "whitePrice": "24"
     },
     {
       "unit": "元/kg",
       "controlType": "06",
       "dataTime": "2022-05-30",
-      "pigPrice": "22",
-      "whitePrice": "18"
+      "pigPrice": "18",
+      "whitePrice": "24"
     },
     {
       "unit": "元/kg",
       "controlType": "06",
       "dataTime": "2022-05-30",
-      "pigPrice": "22",
-      "whitePrice": "18"
+      "pigPrice": "18",
+      "whitePrice": "24"
     },
     {
       "unit": "元/kg",
       "controlType": "06",
       "dataTime": "2022-05-30",
-      "pigPrice": "22",
-      "whitePrice": "18"
+      "pigPrice": "18",
+      "whitePrice": "24"
     },
     {
       "unit": "元/kg",
       "controlType": "06",
       "dataTime": "2022-05-30",
-      "pigPrice": "22",
-      "whitePrice": "18"
+      "pigPrice": "18",
+      "whitePrice": "24"
     },
     {
       "unit": "元/kg",
       "controlType": "06",
       "dataTime": "2022-05-30",
-      "pigPrice": "22",
-      "whitePrice": "18"
+      "pigPrice": "18",
+      "whitePrice": "24"
     },
     {
       "unit": "元/kg",
       "controlType": "06",
       "dataTime": "2022-05-30",
-      "pigPrice": "22",
-      "whitePrice": "18"
+      "pigPrice": "18",
+      "whitePrice": "24"
     },
     {
       "unit": "元/kg",
       "controlType": "06",
       "dataTime": "2022-05-30",
-      "pigPrice": "22",
-      "whitePrice": "18"
+      "pigPrice": "18",
+      "whitePrice": "24"
     },
     {
       "unit": "元/kg",
       "controlType": "06",
       "dataTime": "2022-05-30",
-      "pigPrice": "22",
-      "whitePrice": "18"
+      "pigPrice": "18",
+      "whitePrice": "24"
     },
     {
       "unit": "元/kg",
       "controlType": "06",
       "dataTime": "2022-05-30",
-      "pigPrice": "22",
-      "whitePrice": "18"
+      "pigPrice": "18",
+      "whitePrice": "24"
     },
     {
       "unit": "元/kg",
       "controlType": "06",
       "dataTime": "2022-05-30",
-      "pigPrice": "22",
-      "whitePrice": "18"
+      "pigPrice": "18",
+      "whitePrice": "24"
     },
     {
       "unit": "元/kg",
       "controlType": "06",
       "dataTime": "2022-05-30",
-      "pigPrice": "22",
-      "whitePrice": "18"
+      "pigPrice": "18",
+      "whitePrice": "24"
+    }
+  ],
+  "flowStatus": [
+    {
+      "name": "肉质检疫",
+      "value": 426,
+      "unit": "条"
+    },
+    {
+      "name": "养殖环节",
+      "value": 6,
+      "unit": "条"
+    },
+    {
+      "name": "产地检疫",
+      "value": 106,
+      "unit": "条"
+    },
+    {
+      "name": "屠宰检疫",
+      "value": 106,
+      "unit": "条"
+    },
+    {
+      "name": "销售环节",
+      "value": 2326,
+      "unit": "条"
+    },
+    {
+      "name": "物流运输",
+      "value": 345,
+      "unit": "条"
+    }
+  ],
+  "portfolio": [
+    {
+      "value": "202206151149",
+      "status": "已上链",
+      "name": "肉质检疫",
+      "time": "2022.05.01"
+    },
+    {
+      "value": "202206151149",
+      "status": "已上链",
+      "name": "养殖环节",
+      "time": "2022.05.01"
+    },
+    {
+      "value": "202206151149",
+      "status": "已上链",
+      "name": "产地检疫",
+      "time": "2022.05.02"
+    },
+    {
+      "value": "202206151149",
+      "status": "未上链",
+      "name": "屠宰检疫",
+      "time": "2022.05.03"
+    },
+    {
+      "value": "202206151149",
+      "status": "已上链",
+      "name": "销售环节",
+      "time": "2022.05.04"
+    },
+    {
+      "value": "202206151149",
+      "status": "已上链",
+      "name": "物流运输",
+      "time": "2022.05.05"
+    },
+    {
+      "value": "202206151149",
+      "status": "已上链",
+      "name": "肉质检疫",
+      "time": "2022.05.06"
+    },
+    {
+      "value": "202206151149",
+      "status": "未上链",
+      "name": "养殖环节",
+      "time": "2022.05.07"
+    },
+    {
+      "value": "202206151149",
+      "status": "已上链",
+      "name": "产地检疫",
+      "time": "2022.05.08"
+    },
+    {
+      "value": "202206151149",
+      "status": "已上链",
+      "name": "屠宰检疫",
+      "time": "2022.05.09"
+    },
+    {
+      "value": "202206151149",
+      "status": "已上链",
+      "name": "销售环节",
+      "time": "2022.05.11"
+    },
+    {
+      "value": "202206151149",
+      "status": "已上链",
+      "name": "物流运输",
+      "time": "2022.05.12"
     }
   ]
 }
